@@ -1,0 +1,41 @@
+.jiaotong {
+  font-size: 15px;
+  color: green;
+  display: inline-flex;
+  justify-content: center;
+  flex: 2
+}
+.dis{
+  display: inline-block
+}
+.Jttext{
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  line-height: 30px  
+}
+.shangchuan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1
+}
+.b{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texted{
+  border: 0.5rpx solid gray;
+}
+.text{
+  text-align: center;
+  line-height: 30px;
+  color: #fc448e;
+  font-size: 15px;
+}
+.map{
+  
+}

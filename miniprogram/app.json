@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/question/question",
+    "pages/proposal/proposal",
+    "pages/traffic/traffic",
+    "pages/Other/Other",
+    "pages/build/build",
+    "pages/floor/floor",
+    "pages/food/food",
+    "pages/gabage/gabage",
+    "pages/parkGreen/parkGreen",
+    "pages/street/street",
+    "pages/wire/wire"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "品巷",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b6e6",
+    "selectedColor": "#11c666",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/houbefore.png",
+        "selectedIconPath": "pages/images/houafter.png"
+      },
+      {
+        "pagePath": "pages/question/question",
+        "text": "调查问卷",
+        "iconPath": "pages/images/tubbefore.png",
+        "selectedIconPath": "pages/images/tubafter.png"
+      },
+      {
+        "pagePath": "pages/proposal/proposal",
+        "text": "热点提案",
+        "iconPath": "pages/images/timebefore.png",
+        "selectedIconPath": "pages/images/timeafter.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+
+<view class='map'>
+  <map
+    id="map"
+    longitude="113.324520"
+    latitude="23.099994"
+    scale="14"
+    controls="{{controls}}"
+    bindcontroltap="controltap"
+    markers="{{markers}}"
+    bindmarkertap="markertap"
+    polyline="{{polyline}}"
+    bindregionchange="regionchange"
+    show-location
+    style="width: 100%; height: 300px;"
+  ></map>
+</view>
+
+
+<view class='text'>交通环境提升</view>
+
+<!-- 表单提交 -->
+<form bindsubmit="formSubmit">
+  <view class='Jttext' >
+    <view class='jiaotong' >
+      <checkbox-group  name='Pick'>
+        <label style="display:flex;" wx:for="{{ promote }}" >
+            <checkbox  value='{{ item.name }}' 
+            checked='{{item.checked}}'/>
+            {{item.name}}
+        </label>
+      </checkbox-group>
+    </view>
+    <view class='shangchuan'>
+      <button bindtap="doUpload" size='mini' plain='ture' name='Photo' style="display:center;" >上传图片</button>
+    </view>
+  </view>
+  <view class='b'>
+    <textarea class='texted' name='suggestion' placeholder='存在什么问题或者其他建议' placeholder-style='font-size:15px; color:grey' style='width:85%'/>
+  </view>
+  <view>
+    <button form-type='submit' bindtap='jumpage' >点击提交</button>
+  </view>
+</form>
